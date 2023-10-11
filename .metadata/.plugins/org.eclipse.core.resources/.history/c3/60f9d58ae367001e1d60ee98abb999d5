@@ -1545,16 +1545,9 @@ public class GameLogic {
 					
 				}
 				break;
-<<<<<<< HEAD
 			case ("WKn"): //since knights dont stay in the same row or column, you can only check one pin direction
 				if (whiteTurn) {
 					if(!isPiecePinned(piecePointer, "NW")) {
-=======
-			case ("WKn"):
-				if (whiteTurn) {
-					boolean knightIsPinned = isPiecePinned(piecePointer, "NW") || isPiecePinned(piecePointer, "SW") || isPiecePinned(piecePointer, "NE") || isPiecePinned(piecePointer, "SE") || isPiecePinned(piecePointer, "PY") || isPiecePinned(piecePointer, "PX") || isPiecePinned(piecePointer, "NX") || isPiecePinned(piecePointer, "NY");
-					if(!knightIsPinned) {
->>>>>>> master
 						drawDotsSpecial(coords);
 					}
 					
@@ -1563,12 +1556,7 @@ public class GameLogic {
 				break;
 			case ("BKn"):
 				if (!whiteTurn) {
-<<<<<<< HEAD
 					if(!isPiecePinned(piecePointer, "NW")) {
-=======
-					boolean knightIsPinned = isPiecePinned(piecePointer, "NW") || isPiecePinned(piecePointer, "SW") || isPiecePinned(piecePointer, "NE") || isPiecePinned(piecePointer, "SE") || isPiecePinned(piecePointer, "PY") || isPiecePinned(piecePointer, "PX") || isPiecePinned(piecePointer, "NX") || isPiecePinned(piecePointer, "NY");
-					if(!knightIsPinned) {
->>>>>>> master
 						drawDotsSpecial(coords);
 					}
 				}
